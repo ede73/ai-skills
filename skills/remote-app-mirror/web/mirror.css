@@ -1,0 +1,5 @@
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#101114;color:#fff;font:14px system-ui,sans-serif}
+main{width:100%;height:100%;display:grid;place-items:center;overflow:hidden;touch-action:none}
+img{max-width:100vw;max-height:100vh;object-fit:contain;user-select:none;-webkit-user-drag:none;touch-action:none;outline:none;transform:translate(var(--pan-x,0px),var(--pan-y,0px)) scale(var(--zoom,1));transform-origin:center center;will-change:transform}
+#focus{position:fixed;left:-10px;top:-10px;width:1px;height:1px;opacity:0}
