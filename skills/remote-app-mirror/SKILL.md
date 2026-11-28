@@ -15,11 +15,11 @@ Mirror one running app window to a browser. The bundled bridge captures the sele
 
 ## Start the bridge
 
-From the `ai-skills` repository root, use the skill launcher:
+Use the skill launcher from its installed folder; it resolves the shared program in the `ai-skills` checkout:
 
 ```sh
-python3 "skills/remote-app-mirror/scripts/mirror.py" --list-windows
-python3 "skills/remote-app-mirror/scripts/mirror.py" --window-title "part of the unique window title"
+python3 "<skill-directory>/scripts/mirror.py" --list-windows
+python3 "<skill-directory>/scripts/mirror.py" --window-title "part of the unique window title"
 ```
 
 The bridge prints the URL for the mirrored app. Use `--port` to choose another port. Read [bridge limitations](references/bridge-limitations.md) when needed.
